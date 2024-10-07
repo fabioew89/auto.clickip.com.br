@@ -1,40 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Script Topologia EDD METRO DM4370</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="icon" type="image/png" sizes="32x32" href="static\clickipnobackground.png">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="{{ url_for('static', filename='/swconfig.css') }}">
-  </head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title> DM4370 CONFIGSCRIPT</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link href="swconfig.css" rel="stylesheet">
+        <link rel="icon" type="image/png" sizes="32x32" href="headimage.png">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    
+    </head>
     
     <body>
     <div class="logoswitchscript">
-    <img src="static\connection.gif" class="networkicon"  width="200px" height="200px">
+    <img src="connection.gif" class="networkicon"  width="200px" height="200px">
     <div class="logoswitchphrasedmL3script">
-
-    <!-- Script 1 - (EDD Switch configuration) -->
-
-      <p1> DM 4370 L3 (MPLS)</p1>
+    <p1> DM 4370 L3 (MPLS)</p1>
     </div>
     </div>
     </div>
     
     <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
-    <ol class="breadcrumb homepagescriptvpls">
-    <li class="breadcrumb-item"><a class="homepagebar1" href="http://127.0.0.1:1010/sw.html">Home</a></li>
+    <ol class="breadcrumb homepagescript">
+    <li class="breadcrumb-item"><a class="homepagebar1" href="sw.html">Home</a></li>
     <li class="breadcrumb-item active homepagebar2" aria-current="page">Configuração Switch DATACOM DM4370</li>
     <i class="gg-profile"></i>
     <p class="homepagebar2 profiletext">Bem-vindo Suporte!</p>    
    </ol>
     </nav>
     
-    <img id="clickipnavbarswitchconfigscriptgenerator" src="static\clickipnobackground.png" width="70px" height="50px" >
+    <img id="clickipnavbarswitchconfigscript" src="clickipnobackground.png" width="70px" height="50px" >
         <div class="container">
             <div class="content">
                 <div class="row">
@@ -86,31 +84,31 @@
  <!-- some p phrases will be put outside the form class -->
 
 <p class="formsadviceproduct">Informar a Sigla do Produto + (Múltiplas seleções habilitadas)</p>
-<img class="circuitoicon" src="static\circuitoicon.gif">
+<img class="circuitoicon" src="circuitoicon.gif">
 <p class="formsadvicecircuito">Caracteres permitidos: Letra, número, "_". Ex: RJO_5555555</p>
-<img class="hostnameicon" src="static\hostnameicon.gif">
+<img class="hostnameicon" src="hostnameicon.gif">
 <p class="formsadvicecliente">Caracteres permitidos: Letra, número, "-", "_". Ex: RJO_5555555</p>
-<img class="produtoicon" src="static\produtoicon.gif">
+<img class="produtoicon" src="produtoicon.gif">
 <p class="formsadvicevlanask">Se a porta SWITCH for tagueada (Trunk), marcar SIM</p>
-<img class="vlanicon" src="static\vlanicon.gif">
+<img class="vlanicon" src="vlanicon.gif">
 <p class="formsadvicecpeask">Se a porta CPE for tagueada (Trunk), marcar SIM</p>
-<img class="redemetroicon" src="static\redemetroicon.gif">
+<img class="redemetroicon" src="redemetroicon.gif">
 <p class="formsadviceredemetro">Porta de conexão com a Metro (1 a 4)</p>
-<img class="portaredemetroicon" src="static\portaredemetroicon.gif">
+<img class="portaredemetroicon" src="portaredemetroicon.gif">
 <p class="formsadviceredecpe">Porta de conexão com a CPE (5 a 8)</p>
 <p class="formsadviceredecpespeed">Velocidade da conexão na porta WAN</p>
-<img class="velocidaderedecpe" src="static\velocidaderedecpeicon.gif">
+<img class="velocidaderedecpe" src="velocidaderedecpeicon.gif">
 <p class="formsadviceredemetrospeed">Velocidade da conexão na porta LAN</p>
-<img class="velocidaderedemetroicon" src="static\velocidaderedemetroicon.gif">
+<img class="velocidaderedemetroicon" src="velocidaderedemetroicon.gif">
 
 
-<form id="formslist" class="max-w-sm mx-auto forms2" method="post">
+<form id="formslist" class="max-w-sm mx-auto forms2">
         <div id="additional-phrases"></div>
         <div class="mb-5">
-            <input type="text" id="circuito" minlength="11" name="circuito" maxlength="20" placeholder="Insira o número do Circuito (Mínimo de 11 caracteres)" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" required>     
+            <input type="text" id="circuito" minlength="11" name="name" maxlength="20" placeholder="Insira o número do Circuito (Mínimo de 11 caracteres)" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" required>     
   
           </p>   
-            <input type="text" id="cliente" minlength="11" maxlength="20" name="cliente" placeholder="Insira o Hostname" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" required>        
+            <input type="text" id="cliente" minlength="11" maxlength="20" name="" placeholder="Insira o Hostname" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" required>        
             </p>
 			
             <button id="dropdownCheckboxButton" data-dropdown-toggle="dropdownDefaultCheckbox" class="product shadow-sm text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400" type="button" required>
@@ -126,84 +124,84 @@
                     <ul class="p-3 space-y-3 text-sm text-gray-700 dark:text-gray-200"  aria-labelledby="dropdownCheckboxButton">
                       <li>
                         <div class="flex items-center">
-                            <input type="checkbox" class="change-phrase-checkbox w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" id="change-phrase-checkbox" value="_CN (IP Connect/IP Dedicado) ">
+                            <input type="checkbox" class="change-phrase-checkbox w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" id="change-phrase-checkbox" value="CN, ">
                             <label for="checkbox-item-1" class=" ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">CN (IP Connect/IP Dedicado) </label>
                         </div>
                       </li>
 
                       <li>
                         <div class="flex items-center">
-                            <input type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" value="_DP (TC Data/SLDD) "  id="change-phrase-checkbox2" >
+                            <input type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" value="DP, "  id="change-phrase-checkbox2" >
                             <label for="checkbox-item-2" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">DP (TC Data/SLDD)</label>
                         </div>
                       </li>
 
                       <li>
                         <div class="flex items-center">
-                          <input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" value="_DT (Digitronco/DDR) " id="change-phrase-checkbox3">
+                          <input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" value="DT, " id="change-phrase-checkbox3">
                           <label for="checkbox-item-3" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">DT (Digitronco/DDR)</label>
                         </div>
                       </li>
 
                       <li>
                         <div class="flex items-center">
-                          <input type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" Value="_FR (Frame Relay/Frame Relay) " id="change-phrase-checkbox4">
+                          <input type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" Value="FR, " id="change-phrase-checkbox4">
                           <label for="checkbox-item-4" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">FR (Frame Relay/Frame Relay) </label>
                         </div>
                       </li>
 
                       <li>
                         <div class="flex items-center">
-                          <input type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" Value="_IS (ISDN/RDSI) " id="change-phrase-checkbox5">
+                          <input type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" Value="IS, " id="change-phrase-checkbox5">
                           <label for="checkbox-item-1" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">IS (ISDN/RDSI) </label>
                         </div>
                       </li>
 
                       <li>
                         <div class="flex items-center">
-                          <input type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" Value="_LD (LD/EILD) " id="change-phrase-checkbox6">
+                          <input type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" Value="LD, " id="change-phrase-checkbox6">
                           <label for="checkbox-item-1" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">LD (LD/EILD) </label>
                         </div>
                       </li>
 
                       <li>
                         <div class="flex items-center">
-                          <input type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" Value="_LI (LD Interestadual/EILD) " id="change-phrase-checkbox7">
+                          <input type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" Value="LI, " id="change-phrase-checkbox7">
                           <label for="checkbox-item-1" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">LI (LD Interestadual/EILD) </label>
                         </div>
                       </li>
 
                       <li>
                         <div class="flex items-center">
-                          <input type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" Value="_ME (TC Metro/SLDD (Lan Link))" id="change-phrase-checkbox8">
+                          <input type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" Value="ME" id="change-phrase-checkbox8">
                           <label for="checkbox-item-1" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"> ME (TC Metro/SLDD (Lan Link)) </label>
                         </div>
                       </li>
 
                       <li>
                         <div class="flex items-center">
-                          <input type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" Value="_SI (SL Interestadual/Int. de Equip.) " id="change-phrase-checkbox9">
+                          <input type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" Value="SI, " id="change-phrase-checkbox9">
                           <label for="checkbox-item-1" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">SI (SL Interestadual/Int. de Equip.) </label>
                         </div>
                       </li>
                       <li>
 
                         <div class="flex items-center">
-                          <input type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" Value="_SL (Super Link/SLDD) " id="change-phrase-checkbox10">
+                          <input type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" Value="SL, " id="change-phrase-checkbox10">
                           <label for="checkbox-item-1" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">SL (Super Link/SLDD) </label>
                         </div>
                       </li>
                       <li>
                         
                         <div class="flex items-center">
-                          <input type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" Value="_VM (VPN VIP/Vetor)" id="change-phrase-checkbox11">
+                          <input type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" Value="VM (VPN VIP/Vetor)" id="change-phrase-checkbox11">
                           <label for="checkbox-item-1" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"> VM (VPN VIP/Vetor) </label>
                         </div>
                       </li>
                       <li>
 
                         <div class="flex items-center">
-                          <input type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" Value="_VM (VPN IP/Vetor)" id="change-phrase-checkbox12">
+                          <input type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" Value="VM (VPN IP/Vetor)" id="change-phrase-checkbox12">
                           <label for="checkbox-item-1" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">VM (VPN IP/Vetor) </label>
                         </div>
                     </li> 
@@ -216,25 +214,25 @@
 
     <!--VLAN ASK-->
 
-    <input type="radio" id="radiocheck1" name="radiocheckvlan" value="sim" required>
+    <input type="radio" id="radiocheck1" name="size" value="default" required>
     <label id="textradio1" for="size-small">Sim</label>
-    <input type="radio" id="radiocheck2" name="radiocheckvlan" value="não">
+    <input type="radio" id="radiocheck2" name="size" value="default" required>
     <label id="textradio2" for="size-small">Não</label>
 
-    <!--CPE ASK-->
+    <!--CLAN ASK-->
 
     <div class="radiocheck3 flex items-center mb-4">
-        <input id="textradio3 " type="radio" value="sim" name="radiocheckcpe" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" required>
+        <input id="textradio3 " type="radio" value="default" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" required>
         <label for="default-radio-1" class="textradio3">Sim</label>
     </div>
     <div class="radiocheck4 flex items-center">
-        <input id="default-radio-2" type="radio" value="não" name="radiocheckcpe" class=" w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+        <input id="default-radio-2" type="radio" value="default" name="default-radio" class=" w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
         <label for="default-radio-2" class="textradio4">Não</label>
     </div>
 
     <!--Metro-->
 
-    <input type="text" id="numerovlan metro" maxlength="1" name="portaconexao" placeholder="Informe a porta de conexão Metro" class="numbervlan2 shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light " required>        
+    <input type="text" id="numerovlan metro" maxlength="1" name="name" placeholder="Informe a porta de conexão Metro" class="numbervlan2 shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light " required>        
    			
    <!--CPE-->
 
@@ -248,20 +246,19 @@
   </button>
   
   <!-- Dropdown menu -->
-
   <div id="dropdownDivider" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
       <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDividerButton">
         <li>
           <div class="flex items-center">
-              <input type="checkbox" class="change-phrase-checkbox w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" id="metrospeed" value="1000full ">
-              <label for="checkbox-item-1" class=" ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">1000full </label>
+              <input type="checkbox" class="change-phrase-checkbox w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" id="metrospeed" value="1000FULL ">
+              <label for="checkbox-item-1" class=" ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">1000 FULL </label>
           </div>
         </li>
 
         <li>
           <div class="flex items-center">
-              <input type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" value="negotiation "  id="metrospeed2" >
-              <label for="checkbox-item-2" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">negotiation</label>
+              <input type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" value="Negotiation "  id="metrospeed2" >
+              <label for="checkbox-item-2" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Negotiation</label>
           </div>
         </li>
   </div>
@@ -274,20 +271,19 @@
   </button>
   
   <!-- Dropdown menu -->
-
   <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
       <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
         <li>
           <div class="flex items-center">
-              <input type="checkbox" class="change-phrase-checkbox w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" id="cpespeed" value="100full ">
-              <label for="checkbox-item-1" class=" ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">100full </label>
+              <input type="checkbox" class="change-phrase-checkbox w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" id="cpespeed" value="100FULL ">
+              <label for="checkbox-item-1" class=" ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">100 FULL </label>
             </div>
         </li>
 
         <li>
           <div class="flex items-center">
-              <input type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" value="negotiation" id="cpespeed2" >
-              <label for="checkbox-item-2" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">negotiation</label>
+              <input type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" value="Negotiation "  id="cpespeed2" >
+              <label for="checkbox-item-2" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Negotiation</label>
           </div>
         </li>
       </ul>
@@ -298,12 +294,10 @@
     <input type="text" id="numerovlan" maxlength="4" name="name" placeholder="Informe o número da VLAN" class="numbervlan shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light " required>        
     <p class="formsadvice textvlan">Informar número da Vlan (2 a 4094)			    
     </div>
-
     <!--TO NOT FORGET: function showscript() is first executed to block button -->
         <!-- until any field inside the forms is not null -->
 <!-- after this it will execute the redirect function after click -->
-
-    <button type="submit" id="showMessageButton" onclick="submitData()"  class="btn btn-primary sendconfig2">Deseja prosseguir com as configurações e gerar script?</button>
+    <button type="submit" id="showMessageButton" onclick="showscript()" class="btn btn-primary sendconfig2">Deseja prosseguir com as configurações e gerar script?</button>
 
   </form>
 
@@ -313,11 +307,23 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
     <script src="https://unpkg.com/imask@6/dist/imask.min.js"></script>
-    <script src="{{ url_for('static', filename='swconfig.js') }}"></script>
+    <script src="swconfig.js"></script>
+</body>
 
 
 
-  </body>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </html>
