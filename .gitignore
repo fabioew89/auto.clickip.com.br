@@ -1,9 +1,9 @@
+__pycache__/
+
 #Virtual Environmemt
 .virt/
 .venv/
 virt/
 venv/
-
-__pycache__/
 
 .vscode/
