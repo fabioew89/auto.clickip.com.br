@@ -4,3 +4,6 @@
 virt/
 venv/
 
+__pycache__/
+
+.vscode/
